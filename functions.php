@@ -10,4 +10,4 @@ if (!defined('ABSPATH')) die();
 function ideakit_ct_enqueue_parent() {
     wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'ideakit_ct_enqueue_parent' );
