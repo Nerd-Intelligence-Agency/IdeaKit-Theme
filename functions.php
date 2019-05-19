@@ -17,7 +17,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
   'https://github.com/Nerd-Intelligence-Agency/IdeaKit-Theme',
   __FILE__,
-  'IdeaKit-Theme'
+  'ideakit-theme'
 );
 
 //Optional: If you're using a private repository, specify the access token like this:
