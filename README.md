@@ -20,6 +20,8 @@ An answer to that question.
 
 == Changelog ==
 
+= 1.0.1 =
+* Remove updater
 = 1.0 =
 * Initial Release
 
