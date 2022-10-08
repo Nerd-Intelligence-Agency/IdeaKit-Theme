@@ -12,16 +12,3 @@ function ideakit_ct_enqueue_parent() {
 }
 add_action( 'wp_enqueue_scripts', 'ideakit_ct_enqueue_parent' );
 
-//Check for theme updates
-require 'plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-  'https://github.com/Nerd-Intelligence-Agency/IdeaKit-Theme',
-  __FILE__,
-  'ideakit-theme'
-);
-
-//Optional: If you're using a private repository, specify the access token like this:
-//$myUpdateChecker->setAuthentication('your-token-here');
-
-//Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('master');
