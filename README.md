@@ -3,7 +3,7 @@ Contributors: (Nerd Intelligence Agency)
 Tags: divi supported
 Requires at least: 5.0
 Tested up to: 5.0
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,8 +20,10 @@ An answer to that question.
 
 == Changelog ==
 
-= 1.0.1 =
-* Remove updater
+= 1.1.0 =
+* remove theme auto updater
+* add pwa support and set view
+
 = 1.0 =
 * Initial Release
 
